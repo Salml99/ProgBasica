@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+*{
+   font-family: 'Playfair Display', serif; 
+    background: #EAF2F8;
+}
+h1{
+    text-align: center;
+}
+#Resultado, #Resultado1, #Resultado2{
+    text-decoration: underline;
+    color: crimson;
+}
+input[type=button], input[type=submit]{
+    font-size:17px;
+    font-family:sans-serif;
+    font-weight:bold;
+    color:white;
+    background:#5499C7;
+    border: none;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    background: #1F618D;
+}
+input[type=text], input[type=date]{
+    background: #fff;
+}
+#informacion{
+    font-weight: bold;
+    color:dimgrey;
+}
